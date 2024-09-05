@@ -3,7 +3,7 @@ layout: post
 title: "Fluorescence Microscopy"
 author: "Qiqi Lu"
 category: blog
-date: 2024-07-08
+date: 2024-09-08
 ---
 
 ### Background Signal
@@ -16,4 +16,6 @@ $
 ### Uneven illumination
 Uneven illumination occurs when the light does not evenly illuminate your sample across the field of view. This results in darker areas and more brightly illuminated areas.
 
-![alt text](images/image.png)
+![alt text](/assets/img/image.png)
+
+<img src="/assets/img/image.png" width="50%">
