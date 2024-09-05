@@ -17,5 +17,3 @@ $
 Uneven illumination occurs when the light does not evenly illuminate your sample across the field of view. This results in darker areas and more brightly illuminated areas.
 
 ![alt text](/assets/img/image.png)
-
-<img src="/assets/img/image.png" width="50%">
