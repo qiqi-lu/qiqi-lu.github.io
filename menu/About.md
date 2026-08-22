@@ -4,13 +4,28 @@ title: About
 permalink: /about
 ---
 
-Hi, I'm **Qiqi Lu**, a doctoral student in the [School of Biomedical Engineering](https://portal.smu.edu.cn/swyxgcxy/) at Southern Medical University, Guangzhou, China. My research lies at the intersection of **deep learning** and **medical imaging**, with a focus on developing intelligent computational methods for magnetic resonance imaging (MRI) and fluorescence microscopy. I work on MR parameter mapping (e.g., R2\* relaxometry and diffusion tensor imaging), foundation models for image restoration, and AI-assisted cytopathology screening.
+<style>
+  .avatar { float: right; width: 160px; border-radius: 50%; margin: 0.5em 0 1em 1.5em; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+</style>
+
+<img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Qiqi Lu" class="avatar">
+
+Hi, I'm **Qiqi Lu**, a doctoral student in the [School of Biomedical Engineering](https://portal.smu.edu.cn/swyxgcxy/) at Southern Medical University, Guangzhou, China. My research develops **deep learning** methods for **medical imaging**, with a focus on three areas: **quantitative MRI** (MR parameter mapping, such as R2\* relaxometry and diffusion tensor imaging), **fluorescence microscopy** (image restoration and foundation models), and **artificial intelligence virtual tissue (AIVT)** for tissue representation and spatial omics analysis.
 
 ## Education
 
-- **Ph.D. in Biomedical Engineering**, Southern Medical University, 2023 – present
-- **M.S. in Biomedical Engineering**, Southern Medical University, 2019 – 2023
-- **B.S. in Biomedical Engineering**, Southern Medical University, 2015 – 2019
+<style>
+  .edu-list { list-style: none; padding-left: 0; font-size: 0.9em; }
+  .edu-list li { display: flex; align-items: baseline; margin-bottom: 0.4em; }
+  .edu-list li .fa { flex: 0 0 1.6em; color: #2b6cb0; text-align: center; margin-right: 0.3em; }
+  .edu-list li .deg { display: inline-block; min-width: 3.2em; font-weight: bold; }
+</style>
+
+<ul class="edu-list">
+  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">Ph.D.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2023 – present</li>
+  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">M.S.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2019 – 2023</li>
+  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">B.S.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2015 – 2019</li>
+</ul>
 
 ## Research Interests
 
@@ -18,16 +33,4 @@ Hi, I'm **Qiqi Lu**, a doctoral student in the [School of Biomedical Engineering
 - Magnetic resonance imaging and MR parameter mapping (R2\* relaxometry, diffusion tensor imaging)
 - Fluorescence microscopy image restoration and foundation models
 - AI for cytopathology and large-scale screening
-- Spatial transcriptomics
-
-## Selected Work
-
-- **FluoResFM** — a foundation model for multi-task, cross-distribution restoration of fluorescence microscopy images (published in *Nature Communications*, 2026). Code is available at [github.com/qiqi-lu/fluoresfm](https://github.com/qiqi-lu/fluoresfm), with a [napari plugin](https://github.com/qiqi-lu/napari-fluoresfm).
-- **CervixFM** — a general foundation model for cervical cytology image analysis (preprint, 2026).
-
-## Links
-
-- [Google Scholar](https://scholar.google.com/citations?user=aXP6u2IAAAAJ&hl=en)
-- [ORCID](https://orcid.org/0000-0001-6066-0690)
-- [GitHub](https://github.com/qiqi-lu)
-- [LinkedIn](https://www.linkedin.com/in/qiqi-lu/)
+- Spatial omics

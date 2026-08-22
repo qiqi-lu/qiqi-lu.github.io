@@ -1,124 +1,175 @@
 # Publications data, sourced from Google Scholar
 # (https://scholar.google.com/citations?user=aXP6u2IAAAAJ&hl=en)
-# Keep entries ordered newest first. The author's own name (Q Lu) is bolded with ** **.
+# Keep entries ordered newest first.
+#
+# Field conventions:
+# - type: journal | preprint | conference
+# - authors: full names in publication order.
+#   ** **     = the page owner (Qiqi Lu)
+#   <sup>&dagger;</sup> = co-first author
+#   <sup>&#42;</sup>    = corresponding author
+#   (markers only added when verified; conference abstracts usually do not designate them)
+#   NOTE: the * marker must be written as the HTML entity &#42; so that the
+#   Markdown parser does not treat it as an emphasis delimiter.
+# - Co-author names link to their Google Scholar profiles; the ORCID icon
+#   (<a class="pub-orcid">) after a name links to the author's ORCID profile:
+#   Qianjin Feng   https://orcid.org/0000-0002-3830-5120
+#   Yanqiu Feng    https://orcid.org/0000-0002-2807-5974
+#   Xinyuan Zhang  https://orcid.org/0000-0002-1737-6069
+#   Shaoqun Zeng   https://orcid.org/0000-0002-1802-337X
+#   Shenghua Cheng https://orcid.org/0000-0003-3527-3845
 
 - title: "Reliable deep diffusion tensor estimation: Rethinking the power of data-driven optimization routine"
-  authors: "J Li, Z Zhang, Y Chen, **Q Lu**, Y Wu, X Liu, Q Feng, Y Feng, X Zhang"
+  type: journal
+  authors: 'Jialong Li<sup>&dagger;</sup>, Zhicheng Zhang<sup>&dagger;</sup>, Yunwei Chen, **Qiqi Lu**, Ye Wu, Xiaoming Liu, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Engineering Applications of Artificial Intelligence 181, 115781"
   year: 2026
-  citations: 1
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:ufrVoPGSRksC"
+  url: "https://doi.org/10.1016/j.engappai.2026.115781"
+  tags: [MRI, deep learning]
 
 - title: "Building artificial intelligence virtual tissue (AIVT) for tissue state representation, feature prediction, and dynamic simulation"
-  authors: "**Q Lu**, Q Feng, S Zeng, S Cheng"
+  type: preprint
+  authors: '**Qiqi Lu**, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Shaoqun Zeng<a href="https://orcid.org/0000-0002-1802-337X" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Shenghua Cheng](https://scholar.google.com/citations?user=xf_FA0BIAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0003-3527-3845" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "arXiv preprint arXiv:2606.29883"
   year: 2026
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:0EnyYjriUFMC"
+  url: "https://arxiv.org/abs/2606.29883"
+  tags: [microscopy, deep learning, multimodal, spatial omics]
+  highlight: true
 
 - title: "A foundation model for multi-task cross-distribution restoration of fluorescence microscopy images"
-  authors: "**Q Lu**, X Liu, Q Feng, S Zeng, S Cheng"
+  type: journal
+  authors: '**Qiqi Lu**, Xiuli Liu, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Shaoqun Zeng<sup>&#42;</sup><a href="https://orcid.org/0000-0002-1802-337X" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Shenghua Cheng](https://scholar.google.com/citations?user=xf_FA0BIAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0003-3527-3845" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Nature Communications 17 (1), 3729"
   year: 2026
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:hqOjcs7Dif8C"
+  url: "https://doi.org/10.1038/s41467-026-70307-4"
+  tags: [microscopy, foundation model, deep learning]
+  highlight: true
 
 - title: "CervixFM: A General Foundation Model for Cervical Cytology Image Analysis"
-  authors: "S Cheng, H Ye, S Liu, L Pei, J Bai, **Q Lu**, J Hu, L Chen, J Cai, X Feng, et al."
+  type: preprint
+  authors: 'Hua Ye<sup>&dagger;</sup>, Shijie Liu<sup>&dagger;</sup>, Lanjie Pei<sup>&dagger;</sup>, Jiaxin Bai, **Qiqi Lu**, Junbo Hu, Li Chen, Jing Cai, Xi Feng, Yuwei Xiao, Shaoqun Zeng<a href="https://orcid.org/0000-0002-1802-337X" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Xiuli Liu<sup>&#42;</sup>, [Shenghua Cheng](https://scholar.google.com/citations?user=xf_FA0BIAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0003-3527-3845" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
+  venue: "Preprint (Research Square)"
   year: 2026
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:UebtZRa9Y70C"
+  url: "https://doi.org/10.21203/rs.3.rs-8629620/v1"
+  tags: [pathology, foundation model, deep learning]
 
 - title: "Evaluating the performance of large language & visual-language models in cervical cytology screening"
-  authors: "Q Hong, S Liu, L Wu, **Q Lu**, P Yang, D Chen, G Rao, X Liu, H Ye, et al."
-  venue: "NPJ Precision Oncology 9 (1), 153"
+  type: journal
+  authors: 'Qi Hong<sup>&dagger;</sup>, Shijie Liu<sup>&dagger;</sup>, Liying Wu<sup>&dagger;</sup>, **Qiqi Lu**, Pinglan Yang, Dingyu Chen, Gong Rao, Xinyi Liu, Hua Ye, Peiqi Zhuang, Wenxiu Yang, Shaoqun Zeng<a href="https://orcid.org/0000-0002-1802-337X" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Xiuli Liu<sup>&#42;</sup>, Jing Cai<sup>&#42;</sup>, [Shenghua Cheng](https://scholar.google.com/citations?user=xf_FA0BIAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0003-3527-3845" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
+  venue: "npj Precision Oncology 9 (1), 153"
   year: 2025
-  citations: 10
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:LkGwnXOMwfcC"
+  url: "https://doi.org/10.1038/s41698-025-00916-7"
+  tags: [pathology, multimodal, LLM]
 
 - title: "MRI Deep Learning-Based Automatic Segmentation of Interventricular Septum for Black-Blood Myocardial T2* Measurement in Thalassemia"
-  authors: "Z Lian, **Q Lu**, B Lin, L Chen, P Peng, Y Feng"
+  type: journal
+  authors: 'Zifeng Lian, **Qiqi Lu**, Bingquan Lin, Lingjian Chen, Peng Peng, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Journal of Magnetic Resonance Imaging 60 (2), 651-661"
   year: 2024
-  citations: 9
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:Tyk-4Ss8FVUC"
+  url: "https://doi.org/10.1002/jmri.29113"
+  tags: [MRI, deep learning]
 
 - title: "Spherical harmonics-based deep learning achieves generalized and accurate diffusion tensor imaging"
-  authors: "Y Chen, J Li, **Q Lu**, Y Wu, X Liu, Y Gao, Y Feng, Z Zhang, X Zhang"
+  type: journal
+  authors: 'Yunwei Chen, Jialong Li, **Qiqi Lu**, Ye Wu, Xiaoming Liu, Yuanyuan Gao, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Zhicheng Zhang, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "IEEE Journal of Biomedical and Health Informatics 29 (1), 456-467"
   year: 2024
-  citations: 7
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:%5FFxGoFyzp5QC"
+  url: "https://doi.org/10.1109/JBHI.2024.3471769"
+  tags: [MRI, deep learning]
 
 - title: "A model-based MR parameter mapping network robust to substantial variations in acquisition settings"
-  authors: "**Q Lu**, J Li, Z Lian, X Zhang, Q Feng, W Chen, J Ma, Y Feng"
+  type: journal
+  authors: '**Qiqi Lu**, Jialong Li, Zifeng Lian, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Wufan Chen, Jianhua Ma, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Medical Image Analysis 94, 103148"
   year: 2024
-  citations: 5
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:YsMSGLbcyi4C"
+  url: "https://doi.org/10.1016/j.media.2024.103148"
+  tags: [MRI, deep learning]
+  highlight: true
 
 - title: "A fully automatic parenchyma extraction method for MRI T2* relaxometry of iron loaded liver in transfusion-dependent patients"
-  authors: "Z Lian, **Q Lu**, B Lin, L Chen, J Gong, Q Hu, H Wang, Y Feng"
-  venue: "Magnetic Resonance Imaging"
+  type: journal
+  authors: 'Zifeng Lian, **Qiqi Lu**, Bingquan Lin, Lingjian Chen, Jian Gong, Qiugen Hu, Huafeng Wang, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
+  venue: "Magnetic Resonance Imaging 109, 18-26"
   year: 2024
-  citations: 4
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:W7OEmFMy1HYC"
+  url: "https://doi.org/10.1016/j.mri.2024.02.017"
+  tags: [MRI, deep learning]
 
 - title: "Game theory-based fusion of multimodal magnetic resonance imaging features for glioma grading"
-  authors: "J Liu, D Lin, **Q Lu**, Y Xie, H Chen, C Ke, J Li, X Lv, Y Feng"
-  venue: "International Conference on Future of Medicine and Biological Information"
+  type: conference
+  authors: 'Jiehong Liu, Danlin Lin, **Qiqi Lu**, Yuanyao Xie, Haolin Chen, Chao Ke, Jing Li, Xiaofei Lv, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
+  venue: "Proceedings of SPIE 13270 (MBIE 2024)"
   year: 2024
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:5nxA0vEk-isC"
+  url: "https://doi.org/10.1117/12.3046634"
+  tags: [MRI, multimodal, deep learning]
 
 - title: "Kernel learning enables fluorescence microscopic image deconvolution with enhanced performance and speed"
-  authors: "**Q Lu**, H Ye, X Liu, S Zeng, Q Feng, S Cheng"
+  type: preprint
+  authors: '**Qiqi Lu**, Hua Ye, Xiuli Liu, Shaoqun Zeng<a href="https://orcid.org/0000-0002-1802-337X" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Shenghua Cheng](https://scholar.google.com/citations?user=xf_FA0BIAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0003-3527-3845" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
+  venue: "Preprint (Research Square)"
   year: 2024
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:eQOLeE2rZwMC"
+  url: "https://doi.org/10.21203/rs.3.rs-4716501/v1"
+  tags: [microscopy, deep learning]
 
 - title: "Cascade of denoising and mapping neural networks for MRI R2* relaxometry of iron-loaded liver"
-  authors: "**Q Lu**, C Wang, Z Lian, X Zhang, W Yang, Q Feng, Y Feng"
+  type: journal
+  authors: '**Qiqi Lu**, Changqing Wang, Zifeng Lian, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Wei Yang, [Qianjin Feng](https://scholar.google.com/citations?user=-56Jyq0AAAAJ)<a href="https://orcid.org/0000-0002-3830-5120" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Bioengineering 10 (2), 209"
   year: 2023
-  citations: 8
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:9yKSN-GCB0IC"
+  url: "https://doi.org/10.3390/bioengineering10020209"
+  tags: [MRI, deep learning]
 
 - title: "Magnetic Resonance R2* Parameter Mapping of Liver Based on Self-supervised Deep Neural Network"
-  authors: "**Q Lu**, Z Lian, J Li, W Si, Z Mai, Y Feng"
+  type: journal
+  authors: '**Qiqi Lu**, Zifeng Lian, Jialong Li, Wenbin Si, Zhaohua Mai, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Chinese Journal of Magnetic Resonance 40 (3), 258-269"
   year: 2023
-  citations: 2
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:Y0pCki6q%5FDkC"
+  url: "https://doi.org/10.11938/cjmr20233050"
+  tags: [MRI, deep learning]
 
 - title: "A Fully Automatic Data Processing Method for MRI T2* Relaxometry of Iron Loaded Liver"
-  authors: "Z Lian, **Q Lu**, Y Feng"
+  type: conference
+  authors: 'Zifeng Lian, **Qiqi Lu**, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "2023 ISMRM & ISMRT Annual Meeting & Exhibition"
   year: 2023
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:WF5omc3nYNoC"
+  tags: [MRI, deep learning]
 
 - title: "Diffusion Tensor Estimation Using Model-Based Deep Learning"
-  authors: "J Li, **Q Lu**, Y Feng, X Zhang"
+  type: conference
+  authors: 'Jialong Li, **Qiqi Lu**, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "2023 ISMRM & ISMRT Annual Meeting & Exhibition"
   year: 2023
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:roLk4NBRz8UC"
+  tags: [MRI, deep learning]
 
 - title: "Diffusion-weighted magnetic resonance imaging in rat kidney using two-dimensional navigated, interleaved echo-planar imaging at 7.0 T"
-  authors: "Q Liu, Z Xu, K Zhao, WS Hoge, X Zhang, Y Mei, **Q Lu**, T Niendorf, Y Feng"
+  type: journal
+  authors: 'Qiang Liu, Zhongbiao Xu, Kaixuan Zhao, W. Scott Hoge, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Yingjie Mei, **Qiqi Lu**, Thoralf Niendorf, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<sup>&#42;</sup><a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "NMR in Biomedicine 35 (5), e4652"
   year: 2022
-  citations: 2
-  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:UeHWp8X0CEIC"
+  url: "https://doi.org/10.1002/nbm.e4652"
+  tags: [MRI]
 
 - title: "Efficient six-direction DTI tensor estimation using model-based deep learning"
-  authors: "J Li, **Q Lu**, Q Liu, Y Feng, X Zhang"
+  type: conference
+  authors: 'Jialong Li, **Qiqi Lu**, Qiang Liu, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting"
   year: 2022
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:IjCSPb-OGe4C"
+  tags: [MRI, deep learning]
 
 - title: "DPG-BUDA: Distortion-free diffusion-weighted renal MRI in small rodents"
-  authors: "Q Liu, Y Mei, Q Tao, **Q Lu**, X Zhang, Y Feng"
+  type: conference
+  authors: 'Qiang Liu, Yingjie Mei, Quan Tao, **Qiqi Lu**, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting"
   year: 2022
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:qjMakFHDy7sC"
+  tags: [MRI]
 
 - title: "Distortion-free high-resolution diffusion weighted imaging of mouse brain using diffusion-prepared 3D VF-RARE"
-  authors: "Q Liu, Y Yang, X Zhang, Y Mei, **Q Lu**, G Xie, Y Feng"
+  type: conference
+  authors: 'Qiang Liu, Yuanbo Yang, [Xinyuan Zhang](https://scholar.google.com/citations?user=kaQLPdEAAAAJ)<a href="https://orcid.org/0000-0002-1737-6069" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>, Yingjie Mei, **Qiqi Lu**, Guoxi Xie, [Yanqiu Feng](https://scholar.google.com/citations?user=dTV47IgAAAAJ)<a href="https://orcid.org/0000-0002-2807-5974" class="pub-orcid" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>'
   venue: "2021 ISMRM & SMRT Annual Meeting & Exhibition"
   year: 2021
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:2osOgNQ5qMEC"
+  tags: [MRI]

@@ -1,29 +1,17 @@
-# Change 'comments' to true for Disqus comments
-disqus:
-  comments: false
-  disqus_shortname: 'https-lenpaul-github-io-lagrange'
-
-# If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-112060364-1'
-
+# Navigation menu
 menu:
-- {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Publications', path: 'menu', url: 'publications.html'}
-- {name: 'News', path: 'menu', url: 'news.html'}
-- {name: 'Contact', path: 'menu', url: 'contact.html'}
+- {name: 'About', path: 'menu', url: 'about'}
+- {name: 'Publications', path: 'menu', url: 'publications'}
+- {name: 'Patents', path: 'menu', url: 'patents'}
+- {name: 'News', path: 'menu', url: 'news'}
+- {name: 'Contact', path: 'menu', url: 'contact'}
 
-# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+# Available social icons are powered by Font Awesome + Academicons,
+# so you can use any icon that they offer.
+# google-scholar and orcid use Academicons (ai ai-*); others use Font Awesome (fa fa-*).
 social:
-- {icon: 'github',     link: 'https://github.com/qiqi-lu'}
-- {icon: 'envelope',   link: 'mailto: 136303971@qq.com'}
-
-# Customize site text
-pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
-
-sharing_button_prompt: 
-
-related_posts: 
-
-post_date_prefix: 'Written on'
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=aXP6u2IAAAAJ&hl=en'}
+- {icon: 'orcid',          link: 'https://orcid.org/0000-0001-6066-0690'}
+- {icon: 'github',         link: 'https://github.com/qiqi-lu'}
+- {icon: 'envelope',       link: 'mailto:136303971@qq.com'}
+- {icon: 'linkedin',       link: 'https://www.linkedin.com/in/qiqi-lu/'}
