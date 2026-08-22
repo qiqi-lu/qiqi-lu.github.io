@@ -1,0 +1,10 @@
+# News / Updates
+# Add news items below, newest first. Each item supports:
+#   date: 2026-08-22          # publication date (unquoted)
+#   title: "News title here"  # title, markdown allowed
+#   url: "https://..."        # optional link
+#
+# Example:
+# - date: 2026-08-22
+#   title: "Our paper on XXX was accepted by Nature Communications"
+#   url: "https://doi.org/xxx"

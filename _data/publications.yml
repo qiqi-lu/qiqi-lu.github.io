@@ -1,0 +1,124 @@
+# Publications data, sourced from Google Scholar
+# (https://scholar.google.com/citations?user=aXP6u2IAAAAJ&hl=en)
+# Keep entries ordered newest first. The author's own name (Q Lu) is bolded with ** **.
+
+- title: "Reliable deep diffusion tensor estimation: Rethinking the power of data-driven optimization routine"
+  authors: "J Li, Z Zhang, Y Chen, **Q Lu**, Y Wu, X Liu, Q Feng, Y Feng, X Zhang"
+  venue: "Engineering Applications of Artificial Intelligence 181, 115781"
+  year: 2026
+  citations: 1
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:ufrVoPGSRksC"
+
+- title: "Building artificial intelligence virtual tissue (AIVT) for tissue state representation, feature prediction, and dynamic simulation"
+  authors: "**Q Lu**, Q Feng, S Zeng, S Cheng"
+  venue: "arXiv preprint arXiv:2606.29883"
+  year: 2026
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:0EnyYjriUFMC"
+
+- title: "A foundation model for multi-task cross-distribution restoration of fluorescence microscopy images"
+  authors: "**Q Lu**, X Liu, Q Feng, S Zeng, S Cheng"
+  venue: "Nature Communications 17 (1), 3729"
+  year: 2026
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:hqOjcs7Dif8C"
+
+- title: "CervixFM: A General Foundation Model for Cervical Cytology Image Analysis"
+  authors: "S Cheng, H Ye, S Liu, L Pei, J Bai, **Q Lu**, J Hu, L Chen, J Cai, X Feng, et al."
+  year: 2026
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:UebtZRa9Y70C"
+
+- title: "Evaluating the performance of large language & visual-language models in cervical cytology screening"
+  authors: "Q Hong, S Liu, L Wu, **Q Lu**, P Yang, D Chen, G Rao, X Liu, H Ye, et al."
+  venue: "NPJ Precision Oncology 9 (1), 153"
+  year: 2025
+  citations: 10
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:LkGwnXOMwfcC"
+
+- title: "MRI Deep Learning-Based Automatic Segmentation of Interventricular Septum for Black-Blood Myocardial T2* Measurement in Thalassemia"
+  authors: "Z Lian, **Q Lu**, B Lin, L Chen, P Peng, Y Feng"
+  venue: "Journal of Magnetic Resonance Imaging 60 (2), 651-661"
+  year: 2024
+  citations: 9
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:Tyk-4Ss8FVUC"
+
+- title: "Spherical harmonics-based deep learning achieves generalized and accurate diffusion tensor imaging"
+  authors: "Y Chen, J Li, **Q Lu**, Y Wu, X Liu, Y Gao, Y Feng, Z Zhang, X Zhang"
+  venue: "IEEE Journal of Biomedical and Health Informatics 29 (1), 456-467"
+  year: 2024
+  citations: 7
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:%5FFxGoFyzp5QC"
+
+- title: "A model-based MR parameter mapping network robust to substantial variations in acquisition settings"
+  authors: "**Q Lu**, J Li, Z Lian, X Zhang, Q Feng, W Chen, J Ma, Y Feng"
+  venue: "Medical Image Analysis 94, 103148"
+  year: 2024
+  citations: 5
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:YsMSGLbcyi4C"
+
+- title: "A fully automatic parenchyma extraction method for MRI T2* relaxometry of iron loaded liver in transfusion-dependent patients"
+  authors: "Z Lian, **Q Lu**, B Lin, L Chen, J Gong, Q Hu, H Wang, Y Feng"
+  venue: "Magnetic Resonance Imaging"
+  year: 2024
+  citations: 4
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:W7OEmFMy1HYC"
+
+- title: "Game theory-based fusion of multimodal magnetic resonance imaging features for glioma grading"
+  authors: "J Liu, D Lin, **Q Lu**, Y Xie, H Chen, C Ke, J Li, X Lv, Y Feng"
+  venue: "International Conference on Future of Medicine and Biological Information"
+  year: 2024
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:5nxA0vEk-isC"
+
+- title: "Kernel learning enables fluorescence microscopic image deconvolution with enhanced performance and speed"
+  authors: "**Q Lu**, H Ye, X Liu, S Zeng, Q Feng, S Cheng"
+  year: 2024
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:eQOLeE2rZwMC"
+
+- title: "Cascade of denoising and mapping neural networks for MRI R2* relaxometry of iron-loaded liver"
+  authors: "**Q Lu**, C Wang, Z Lian, X Zhang, W Yang, Q Feng, Y Feng"
+  venue: "Bioengineering 10 (2), 209"
+  year: 2023
+  citations: 8
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:9yKSN-GCB0IC"
+
+- title: "Magnetic Resonance R2* Parameter Mapping of Liver Based on Self-supervised Deep Neural Network"
+  authors: "**Q Lu**, Z Lian, J Li, W Si, Z Mai, Y Feng"
+  venue: "Chinese Journal of Magnetic Resonance 40 (3), 258-269"
+  year: 2023
+  citations: 2
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:Y0pCki6q%5FDkC"
+
+- title: "A Fully Automatic Data Processing Method for MRI T2* Relaxometry of Iron Loaded Liver"
+  authors: "Z Lian, **Q Lu**, Y Feng"
+  venue: "2023 ISMRM & ISMRT Annual Meeting & Exhibition"
+  year: 2023
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:WF5omc3nYNoC"
+
+- title: "Diffusion Tensor Estimation Using Model-Based Deep Learning"
+  authors: "J Li, **Q Lu**, Y Feng, X Zhang"
+  venue: "2023 ISMRM & ISMRT Annual Meeting & Exhibition"
+  year: 2023
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:roLk4NBRz8UC"
+
+- title: "Diffusion-weighted magnetic resonance imaging in rat kidney using two-dimensional navigated, interleaved echo-planar imaging at 7.0 T"
+  authors: "Q Liu, Z Xu, K Zhao, WS Hoge, X Zhang, Y Mei, **Q Lu**, T Niendorf, Y Feng"
+  venue: "NMR in Biomedicine 35 (5), e4652"
+  year: 2022
+  citations: 2
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:UeHWp8X0CEIC"
+
+- title: "Efficient six-direction DTI tensor estimation using model-based deep learning"
+  authors: "J Li, **Q Lu**, Q Liu, Y Feng, X Zhang"
+  venue: "Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting"
+  year: 2022
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:IjCSPb-OGe4C"
+
+- title: "DPG-BUDA: Distortion-free diffusion-weighted renal MRI in small rodents"
+  authors: "Q Liu, Y Mei, Q Tao, **Q Lu**, X Zhang, Y Feng"
+  venue: "Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting"
+  year: 2022
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:qjMakFHDy7sC"
+
+- title: "Distortion-free high-resolution diffusion weighted imaging of mouse brain using diffusion-prepared 3D VF-RARE"
+  authors: "Q Liu, Y Yang, X Zhang, Y Mei, **Q Lu**, G Xie, Y Feng"
+  venue: "2021 ISMRM & SMRT Annual Meeting & Exhibition"
+  year: 2021
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aXP6u2IAAAAJ&citation_for_view=aXP6u2IAAAAJ:2osOgNQ5qMEC"
