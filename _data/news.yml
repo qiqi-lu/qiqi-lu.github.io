@@ -1,44 +1,8 @@
-# News / Updates
+# News
 # Add news items below, newest first. Each item supports:
-#   date: "Jul 26, 2024"  # display date (final day of the event)
-#   prize: "First Prize"   # award, shown in color at the end of the title
-#   level: first | second | third | poster   # prize color
-#   title: "..."        # competition / conference name, markdown allowed
-#   url: "https://..."  # optional link on the title
-#   project: "..."      # project name on its own line (italic)
-#   members: "..."      # participants on their own line; **bold** your own name
+#   date: "Aug 22, 2026"  # display date
+#   title: "..."          # headline, markdown allowed
+#   url: "https://..."    # optional link on the title
+#   content: "..."        # optional body text, markdown allowed
+[]
 
-- date: "Jul 19, 2026"
-  prize: "Second Prize"
-  level: second
-  title: "The 11th National Biomedical Engineering Innovation Design Competition for College Students"
-  project: "AI-Assisted Diagnosis System for Nephritis Based on Multimodal Data"
-  members: "Yang Liu, **Qiqi Lu**, Xi Xiong"
-
-- date: "Jul 19, 2026"
-  prize: "Second Prize"
-  level: second
-  title: "The 11th National Biomedical Engineering Innovation Design Competition for College Students"
-  project: "Foundation Model for Fluorescence Microscopy Image Restoration"
-  members: "**Qiqi Lu**, Yang Liu, Xi Xiong, Wenjun Zheng"
-
-- date: "Nov 7, 2024"
-  prize: "Best Poster Award"
-  level: poster
-  title: "The 17th International Conference on Photonics and Imaging in Biology and Medicine (PIBM)"
-  url: "https://www.pibm.net.cn/"
-  members: "**Qiqi Lu**"
-
-- date: "Jul 26, 2024"
-  prize: "First Prize"
-  level: first
-  title: "The 9th National Biomedical Engineering Innovation Design Competition for College Students"
-  project: "Rapid Deconvolution Algorithm for Fluorescence Microscopy Images"
-  members: "**Qiqi Lu**, Hua Ye, Qi Hong, Peiqi Zhuang"
-
-- date: "Jul 26, 2024"
-  prize: "Third Prize"
-  level: third
-  title: "The 9th National Biomedical Engineering Innovation Design Competition for College Students"
-  project: "Evaluation and Application of Multimodal Large Language Models in Cervical Cancer Screening"
-  members: "Qi Hong, Xinyi Liu, Peiqi Zhuang, Hua Ye, **Qiqi Lu**"

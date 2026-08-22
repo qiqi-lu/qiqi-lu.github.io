@@ -3,6 +3,7 @@ menu:
 - {name: 'About', path: 'menu', url: 'about'}
 - {name: 'Publications', path: 'menu', url: 'publications'}
 - {name: 'Patents', path: 'menu', url: 'patents'}
+- {name: 'Awards', path: 'menu', url: 'awards'}
 - {name: 'News', path: 'menu', url: 'news'}
 - {name: 'Contact', path: 'menu', url: 'contact'}
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: News
-permalink: /news
+title: Awards
+permalink: /awards
 ---
 
 <style>
@@ -13,10 +13,18 @@ permalink: /news
   .news .news-title { line-height: 1.5; }
   .news .news-title a { text-decoration: none; }
   .news .news-title a:hover { text-decoration: underline; }
-  .news .news-content { margin-top: 0.25em; color: #555; font-size: 0.9em; }
+  .news .news-prize { margin-left: 0.5em; font-size: 0.85em; font-weight: 700; white-space: nowrap; }
+  .news .news-prize::before { content: "["; }
+  .news .news-prize::after { content: "]"; }
+  .news .news-prize.first  { color: #c0392b; }
+  .news .news-prize.second { color: #2b6cb0; }
+  .news .news-prize.third  { color: #2f855a; }
+  .news .news-prize.poster { color: #805ad5; }
+  .news .news-project { margin-top: 0.25em; font-style: italic; color: #333; }
+  .news .news-members { margin-top: 0.2em; font-size: 0.85em; color: #555; }
 </style>
 
-{% assign news = site.data.news %}
+{% assign news = site.data.awards %}
 {% if news.size > 0 %}
   <ul class="news">
     {% for item in news %}
@@ -26,8 +34,10 @@ permalink: /news
           <span class="news-title">
             {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
             {% else %}{{ item.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}
+            {% if item.prize %}<span class="news-prize {{ item.level }}">{{ item.prize }}</span>{% endif %}
           </span>
-          {% if item.content %}<div class="news-content">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
+          {% if item.project %}<div class="news-project">Project: {{ item.project }}</div>{% endif %}
+          {% if item.members %}<div class="news-members">{{ item.members | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
         </div>
       </li>
     {% endfor %}

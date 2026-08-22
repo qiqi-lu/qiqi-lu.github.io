@@ -22,9 +22,9 @@ Hi, I'm **Qiqi Lu**, a doctoral student in the [School of Biomedical Engineering
 </style>
 
 <ul class="edu-list">
-  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">Ph.D.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2023 – present</li>
-  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">M.S.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2019 – 2023</li>
-  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">B.S.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2015 – 2019</li>
+  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">Ph.D.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/english/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2023 – present</li>
+  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">M.S.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/english/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2019 – 2023</li>
+  <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span class="deg">B.S.</span> in Biomedical Engineering, <a href="https://www.smu.edu.cn/english/" target="_blank" rel="noopener noreferrer">Southern Medical University</a>, 2015 – 2019</li>
 </ul>
 
 ## Research Interests
