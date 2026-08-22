@@ -20,7 +20,7 @@ permalink: /patents
     padding: 1px 6px;
     margin-right: 0.35em;
   }
-  .patent-inventors { margin-top: 0.25em; color: #555; font-size: 0.92em; }
+  .patent-inventors { margin-top: 0.25em; color: #555; font-size: 0.86em; }
   .patent-meta { margin-top: 0.25em; color: #555; font-size: 0.92em; }
   .patent-badge {
     font-size: 0.92em;

@@ -10,9 +10,13 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Quattrocento+Sans|Source+Code+Pro">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.6/css/academicons.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/academicons.min.css">
+  <!-- Preload key fonts to avoid text reflow (FOUT) on first paint -->
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/pt-serif-regular-400.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/quattrocento-sans-regular-400.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/fontawesome-webfont.woff2">
+  <link rel="preload" as="font" type="font/woff" crossorigin href="{{ site.baseurl }}/assets/fonts/academicons.woff">
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
 </head>

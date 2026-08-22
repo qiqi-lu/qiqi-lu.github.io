@@ -1,0 +1,56 @@
+/*
+  Self-hosted fonts (latin subset) — locally bundled to avoid
+  layout shifts caused by late-loading web fonts (FOUT).
+  Originally served from Google Fonts.
+*/
+
+/* PT Serif */
+@font-face {
+  font-family: "PT Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/pt-serif-italic-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/pt-serif-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/pt-serif-bold-700.woff2") format("woff2");
+}
+
+/* Quattrocento Sans */
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/quattrocento-sans-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Quattrocento Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/quattrocento-sans-bold-700.woff2") format("woff2");
+}
+
+/* Source Code Pro */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/source-code-pro-regular-400.woff2") format("woff2");
+}

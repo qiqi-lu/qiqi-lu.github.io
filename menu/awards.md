@@ -20,7 +20,7 @@ permalink: /awards
   .news .news-prize.second { color: #2b6cb0; }
   .news .news-prize.third  { color: #2f855a; }
   .news .news-prize.poster { color: #805ad5; }
-  .news .news-project { margin-top: 0.25em; font-style: italic; color: #333; }
+  .news .news-project { margin-top: 0.25em; font-style: italic; color: #333; font-size: 0.85em; }
   .news .news-members { margin-top: 0.2em; font-size: 0.85em; color: #555; }
 </style>
 
