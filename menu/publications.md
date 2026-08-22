@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications
+description: "Publications by Qiqi Lu on deep learning for medical imaging, quantitative MRI, fluorescence microscopy, and AI virtual tissue."
 ---
 
 <style>

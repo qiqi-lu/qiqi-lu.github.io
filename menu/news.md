@@ -2,6 +2,7 @@
 layout: page
 title: News
 permalink: /news
+description: "News and updates from Qiqi Lu, Ph.D. candidate at Southern Medical University."
 ---
 
 <style>

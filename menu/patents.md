@@ -2,6 +2,7 @@
 layout: page
 title: Patents
 permalink: /patents
+description: "Patents by Qiqi Lu on deep learning methods for MR parameter quantification."
 ---
 
 <style>

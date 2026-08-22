@@ -1,6 +1,30 @@
 <!doctype html>
 <html>
   {% include head.html %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Qiqi Lu",
+    "givenName": "Qiqi",
+    "familyName": "Lu",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "image": "{{ site.url }}{{ site.baseurl }}/assets/img/avatar.jpg",
+    "jobTitle": "Ph.D. Candidate",
+    "description": "Ph.D. candidate in Biomedical Engineering at Southern Medical University, working on deep learning for medical imaging, quantitative MRI, and fluorescence microscopy.",
+    "affiliation": {
+      "@type": "CollegeOrDepartment",
+      "name": "School of Biomedical Engineering, Southern Medical University",
+      "parentOrganization": { "@type": "CollegeOrUniversity", "name": "Southern Medical University" }
+    },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Southern Medical University" },
+    "sameAs": [
+{%- for s in site.data.settings.social -%}{%- unless s.link contains 'mailto' -%}
+      "{{ s.link }}"{%- unless forloop.last -%},{%- endunless -%}
+{%- endunless -%}{%- endfor -%}
+    ]
+  }
+  </script>
   <body>
     <div class="container">
       {% include header.html %}

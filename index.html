@@ -7,9 +7,33 @@ layout: none
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Qiqi Lu is a Ph.D. candidate in Biomedical Engineering at Southern Medical University, Guangzhou, China. Research on deep learning for medical imaging, quantitative MRI, fluorescence microscopy, and AI virtual tissue.">
   <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/about">
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/about">
   <title>{{ site.title }} | {{ site.description }}</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Qiqi Lu",
+    "givenName": "Qiqi",
+    "familyName": "Lu",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "jobTitle": "Ph.D. Candidate",
+    "description": "Ph.D. candidate in Biomedical Engineering at Southern Medical University, working on deep learning for medical imaging.",
+    "affiliation": {
+      "@type": "CollegeOrDepartment",
+      "name": "School of Biomedical Engineering, Southern Medical University",
+      "parentOrganization": { "@type": "CollegeOrUniversity", "name": "Southern Medical University" }
+    },
+    "sameAs": [
+{%- for s in site.data.settings.social -%}{%- unless s.link contains 'mailto' -%}
+      "{{ s.link }}"{%- unless forloop.last -%},{%- endunless -%}
+{%- endunless -%}{%- endfor -%}
+    ]
+  }
+  </script>
 </head>
 <body>
   <p>Redirecting to <a href="{{ site.baseurl }}/about">About</a>...</p>

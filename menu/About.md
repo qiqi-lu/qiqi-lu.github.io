@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about
+description: "Qiqi Lu is a Ph.D. candidate in Biomedical Engineering at Southern Medical University, Guangzhou, China, working on deep learning for medical imaging, quantitative MRI, fluorescence microscopy, and AI virtual tissue."
 ---
 
 <style>

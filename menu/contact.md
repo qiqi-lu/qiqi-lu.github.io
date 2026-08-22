@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact
+description: "Contact Qiqi Lu, Ph.D. candidate in Biomedical Engineering at Southern Medical University, Guangzhou, China."
 ---
 
 If you have any questions or problems, feel free to email me.

@@ -2,6 +2,7 @@
 layout: page
 title: Awards
 permalink: /awards
+description: "Awards and honors received by Qiqi Lu, Ph.D. candidate at Southern Medical University."
 ---
 
 <style>
