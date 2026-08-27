@@ -7,11 +7,17 @@ description: "Qiqi Lu is a Ph.D. candidate in Biomedical Engineering at Southern
 
 <style>
   .avatar { float: right; width: 160px; height: 160px; border-radius: 50%; margin: 0.5em 0 1em 1.5em; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+  .cv-line { margin-top: 0.6em; font-size: 0.88em; color: #555; }
+  .cv-line a { color: #555; }
+  .cv-line a:hover { text-decoration: underline; }
+  .cv-line i { color: #2b6cb0; margin-right: 0.35em; }
 </style>
 
 <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Qiqi Lu" class="avatar">
 
 Hi, I'm **Qiqi Lu**, a doctoral student in the [School of Biomedical Engineering](https://portal.smu.edu.cn/swyxgcxy/) at Southern Medical University, Guangzhou, China. My research develops **deep learning** methods for **medical imaging**, with a focus on three areas: **quantitative MRI** (MR parameter mapping, such as R2\* relaxometry and diffusion tensor imaging), **fluorescence microscopy** (image restoration and foundation models), and **artificial intelligence virtual tissue (AIVT)** for tissue representation and spatial omics analysis.
+
+<p class="cv-line"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><a href="{{ site.baseurl }}/assets/files/CV-QiqiLu.pdf">Curriculum Vitae</a> (Updated: Aug. 27, 2026)</p>
 
 ## Education
 
